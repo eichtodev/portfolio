@@ -7,6 +7,9 @@ class Theme_Portfolio extends Theme
     public $author_website  = 'http://eichtoabasula.com';
     public $description     = 'My Portfolio';
     public $version         = '1.0';
+
+    //#SiteAddons-URL
+    //{{ url:site }}addons/shared_addons/themes/portfolio/
 }
 
 ?>

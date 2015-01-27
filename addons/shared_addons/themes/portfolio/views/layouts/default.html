@@ -20,9 +20,24 @@
     </div>
 </header>
 
+{{ pages:display slug="portfolio" }}
+    {{ custom_fields }}
+    	{{ body }}
+    {{ /custom_fields }}
+{{ /pages:display }}
 
+{{ pages:display slug="about" }}
+    {{ custom_fields }}
+    	{{ body }}
+    {{ /custom_fields }}
+{{ /pages:display }}
 
-{{ theme:partial name="contactme" }}
+{{ pages:display slug="contact" }}
+    {{ custom_fields }}
+    	{{ body }}
+    {{ /custom_fields }}
+{{ /pages:display }}
+
 {{ theme:partial name="footer" }} 
 
 </body>
