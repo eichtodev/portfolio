@@ -10,6 +10,8 @@ class Theme_Portfolio extends Theme
 
     //#SiteAddons-URL
     //{{ url:site }}addons/shared_addons/themes/portfolio/
+
+    //1Sec. GIF - http://aplus.com/a/insa-s-space-gif-iti?utm_campaign=i102&utm_source=a7520
 }
 
 ?>

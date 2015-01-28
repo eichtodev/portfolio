@@ -24,3 +24,18 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+//Send Message
+$("#btnSendMessage").click(function() {
+	var Name = $("#txtName").val();
+	var EmailAdd = $("#txtEmailAddress").val();
+	var Subject = $("#txtSubject").val();
+	var Message = $("#txtMessage").val();
+
+	if (Name == "" || EmailAdd == "" || Subject == "" || Message == "") {
+		
+	} else {
+
+	}
+
+});
